@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import ApartmentForm, { type Currency, type FormState } from './components/ApartmentForm'
 import ApartmentTable, { type Apartment } from './components/ApartmentTable'
-import { enviroment } from './enviroments/enviroment'
-
 
 const LS_KEY = 'apartments_v1'
 
@@ -180,8 +178,7 @@ export default function App() {
     }
   }
 
-  // const GEOAPIFY_KEY = '4c4ca6a87d484e2e8f6fe563a3db2db4'
-  const GEOAPIFY_KEY = enviroment.GEOAPIFY_KEY
+  const GEOAPIFY_KEY = import.meta.env.VITE_GEOAPIFY_API_KEY
 
   return (
     <>
