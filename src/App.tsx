@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import ApartmentForm, { type Currency, type FormState } from './components/ApartmentForm'
 import ApartmentTable, { type Apartment } from './components/ApartmentTable'
-import { enviroment } from './enviroments/enviroment.prod'
+import { enviroment } from './enviroments/enviroment'
 
 
 const LS_KEY = 'apartments_v1'
