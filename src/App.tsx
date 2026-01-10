@@ -204,24 +204,24 @@ function App() {
     setIsOpenSug(false)
   }
 
-  function handleDelete(id: string) {
-    const ok = confirm('¿Eliminar este departamento?')
-    if (!ok) {
-      console.log('[Eliminar] Cancelado por el usuario')
-      return
-    }
+  // function handleDelete(id: string) {
+  //   const ok = confirm('¿Eliminar este departamento?')
+  //   if (!ok) {
+  //     console.log('[Eliminar] Cancelado por el usuario')
+  //     return
+  //   }
 
-    try {
-      setApartments((prev) => {
-        const updated = prev.filter((a) => a.id !== id)
-        localStorage.setItem(LS_KEY, JSON.stringify(updated))
-        return updated
-      })
-      console.log(`[Eliminar] Departamento eliminado ✅ id=${id}`)
-    } catch (err) {
-      console.error('[Eliminar] Error al eliminar ❌', err)
-    }
-  }
+  //   try {
+  //     setApartments((prev) => {
+  //       const updated = prev.filter((a) => a.id !== id)
+  //       localStorage.setItem(LS_KEY, JSON.stringify(updated))
+  //       return updated
+  //     })
+  //     console.log(`[Eliminar] Departamento eliminado ✅ id=${id}`)
+  //   } catch (err) {
+  //     console.error('[Eliminar] Error al eliminar ❌', err)
+  //   }
+  // }
 
   function handleReset() {
     const ok = confirm('¿Reiniciar listado de departamentos?')
