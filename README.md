@@ -49,9 +49,7 @@ Para desplegar este proyecto en local
     npm install
 ```
 
-Crear un archivo .env en la raíz del proyecto para determinar la variable de entorno:
-
-`VITE_GEOAPIFY_API_KEY`
+Crear un archivo `.env` en la raíz del proyecto para determinar la variable de entorno:
 
 ```env
     VITE_GEOAPIFY_API_KEY=tu_geopaify_api_key
