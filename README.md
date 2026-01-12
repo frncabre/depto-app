@@ -55,7 +55,7 @@ Crear un archivo `.env` en la raíz del proyecto para determinar la variable de 
     VITE_GEOAPIFY_API_KEY=tu_geopaify_api_key
 ```
 
-Ejcutar el proyecto
+Ejecutar el proyecto
 ```bach
     npm run dev
 ```
