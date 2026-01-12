@@ -36,6 +36,7 @@ El objetivo del proyecto es ofrecer una herramienta simple para la toma de decis
 - Usada para obtener la cotización actual del dolar
 - Referencia: [Bluelytics](https://bluelytics.com.ar/#!/)
 
+---
 
 ## Deployment
 
@@ -55,10 +56,12 @@ Crear un archivo `.env` en la raíz del proyecto para determinar la variable de 
     VITE_GEOAPIFY_API_KEY=tu_geopaify_api_key
 ```
 
-Ejecutar el proyecto
+Ejcutar el proyecto
 ```bach
     npm run dev
 ```
+
+---
 
 ## Screenshots del proyecto
 
